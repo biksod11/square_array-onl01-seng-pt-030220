@@ -1,5 +1,6 @@
 def square_array(array)
+  squared = []
   array.each do |numb|
-    numb**2
+    squared << numb ** 2
 end
 end
